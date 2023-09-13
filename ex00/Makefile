@@ -1,4 +1,4 @@
-TARGET = whatever
+TARGET = easyfind
 NAME = $(TARGET)
 
 CC = c++

@@ -1,4 +1,4 @@
-TARGET = whatever
+TARGET = mutantstack
 NAME = $(TARGET)
 
 CC = c++

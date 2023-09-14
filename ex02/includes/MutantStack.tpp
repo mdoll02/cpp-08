@@ -4,12 +4,12 @@
 
 template<typename T>
 MutantStack<T>::MutantStack() {
-	std::cout << "Default constructor called" << std::endl;
+	//std::cout << "Default constructor called" << std::endl;
 }
 
 template<typename T>
 MutantStack<T>::~MutantStack() {
-	std::cout << "Destructor called" << std::endl;
+	//std::cout << "Destructor called" << std::endl;
 }
 
 template<typename T>
@@ -20,7 +20,7 @@ MutantStack<T> &MutantStack<T>::operator=(const MutantStack &other) {
 
 template<typename T>
 MutantStack<T>::MutantStack(const MutantStack &other) {
-	std::cout << "Copy constructor called" << std::endl;
+	//std::cout << "Copy constructor called" << std::endl;
 	*this = other;
 }
 

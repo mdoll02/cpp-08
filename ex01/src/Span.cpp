@@ -1,4 +1,5 @@
 #include "Span.hpp"
+#include <climits>
 
 Span::Span() {
 	std::cout << "Span default constructor called" << std::endl;
